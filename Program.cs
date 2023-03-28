@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Kim Milyoner Olmak İster\n");
+            Console.Write("İsim Giriniz: ");
+            string isim = Console.ReadLine();
+            Console.Write("Soyisim Giriniz: ");
+            string soyisim = Console.ReadLine();
         }
     }
 }
