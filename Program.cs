@@ -110,7 +110,7 @@
                 }
                 else if (jokerCevap == 2 && yuzdeHak)
                 {
-                    // TODO: Bu kısım sorudan bağımsız kullanılabilmeli.
+                    
                     gizleB = true;
                     gizleC = true;
 
@@ -126,7 +126,7 @@
                     int telefonCevap = int.Parse(Console.ReadLine());
 
                     if (soruNo <= 7 || telefonCevap == 3) Console.WriteLine("Cevap Kesinlikle " + cevap);
-                    else if (telefonCevap == 1)// TODO: Şıklar rastgele olacak. 1Doğru 1Yanlış cevap şeklinde
+                    else if (telefonCevap == 1)
                         Console.WriteLine("Emin Değilim. Ancak A veya B olduğunu düşünüyorum");
                     else if (telefonCevap == 2)
                         Console.WriteLine("Bilemedim. Kusura bakma");
