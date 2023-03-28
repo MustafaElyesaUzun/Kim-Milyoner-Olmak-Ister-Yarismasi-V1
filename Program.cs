@@ -78,6 +78,14 @@
             Console.WriteLine("C) " + (!gizleC ? c : ""));
             Console.WriteLine("D) " + (!gizleD ? d : ""));
 
+        yanitNoktasi:
+            bool jokerHak = seyirciHak || yuzdeHak || telefonHak;
+
+            Console.Write("Cevabınızı Giriniz veya");
+            if (jokerHak) Console.Write(" Joker için J'ye,");
+            Console.Write(" Çekilmek için R'ye Basınız: ");
+            char secim = char.Parse(Console.ReadLine().ToUpper());
+
 
             #endregion
         }
