@@ -147,7 +147,7 @@
                 {
                     Console.WriteLine("Tebrikler, " + kasa + " TL Kazandınız.");
                     Console.WriteLine("Oyun Bitti");
-                    //return;
+                    
                     Environment.Exit(0);
                 }
                 goto soruNoktasi;
@@ -156,7 +156,7 @@
             {
                 Console.WriteLine("Elendiniz, Kazandığınız Tutar: " + baraj + " TL");
                 Console.WriteLine("Oyun Bitti");
-                //return;
+                
                 Environment.Exit(0);
             }
             #endregion
