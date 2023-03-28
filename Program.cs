@@ -28,7 +28,7 @@
                 Console.WriteLine("Kurallar: Yarışmada toplam 12 soru yer almaktadır. " +
                     "2. soruda 2.000 TL, 7. soruda ise 30.000 TL'lik baraj soruları vardır. " +
                     "Yarışmayı kaybettiğiniz takdirde en son geçtiğiniz baraj sorusunun ödülü sizin olur. " +
-                    "Çekildiğiniz takdirde en son doğru yanıtladığınız sorunun ödülünü alırsınız");
+                    "Çekildiğiniz takdirde en son doğru yanıtladığınız sorunun ödülünü alırsınız...");
             }
             
             Console.Write("Hazır Mısınız? : ");
