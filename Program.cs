@@ -25,7 +25,7 @@
 
             if (kuralCevap != 'E')
             {
-                    Console.WriteLine("Kurallar: Yarışmada toplam 12 soru yer almaktadır. " +
+                Console.WriteLine("Kurallar: Yarışmada toplam 12 soru yer almaktadır. " +
                     "2. soruda 2.000 TL, 7. soruda ise 30.000 TL'lik baraj soruları vardır. " +
                     "Yarışmayı kaybettiğiniz takdirde en son geçtiğiniz baraj sorusunun ödülü sizin olur. " +
                     "Çekildiğiniz takdirde en son doğru yanıtladığınız sorunun ödülünü alırsınız...");
@@ -65,10 +65,10 @@
             
             gizleA = false; gizleB = false;
             gizleC = false; gizleD = false;
-        #endregion
+            #endregion
 
-        #region Soru Kalıbı
-        soruNoktasi:
+            #region Soru Kalıbı
+            soruNoktasi:
             Console.Clear();
             Console.WriteLine(soruNo + "-)" + soru);
             Console.WriteLine("A) " + (!gizleA ? a : ""));
@@ -76,7 +76,7 @@
             Console.WriteLine("C) " + (!gizleC ? c : ""));
             Console.WriteLine("D) " + (!gizleD ? d : ""));
 
-        yanitNoktasi:
+            yanitNoktasi:
             bool jokerHak = seyirciHak || yuzdeHak || telefonHak;
 
             Console.Write("Cevabınızı Giriniz veya");
