@@ -25,7 +25,7 @@
 
             if (kuralCevap != 'E')
             {
-                Console.WriteLine("Kurallar: Yarışmada toplam 12 soru yer almaktadır. " +
+                    Console.WriteLine("Kurallar: Yarışmada toplam 12 soru yer almaktadır. " +
                     "2. soruda 2.000 TL, 7. soruda ise 30.000 TL'lik baraj soruları vardır. " +
                     "Yarışmayı kaybettiğiniz takdirde en son geçtiğiniz baraj sorusunun ödülü sizin olur. " +
                     "Çekildiğiniz takdirde en son doğru yanıtladığınız sorunun ödülünü alırsınız...");
@@ -59,11 +59,9 @@
             cevap = 'A';
             odul = 1000;
             baraj = 0;
-
             
             seyirciYuzdeA = 80; seyirciYuzdeB = 10;
             seyirciYuzdeC = 5; seyirciYuzdeD = 5;
-
             
             gizleA = false; gizleB = false;
             gizleC = false; gizleD = false;
@@ -109,8 +107,7 @@
                     seyirciHak = false;
                 }
                 else if (jokerCevap == 2 && yuzdeHak)
-                {
-                    
+                {                    
                     gizleB = true;
                     gizleC = true;
 
@@ -126,10 +123,8 @@
                     int telefonCevap = int.Parse(Console.ReadLine());
 
                     if (soruNo <= 7 || telefonCevap == 3) Console.WriteLine("Cevap Kesinlikle " + cevap);
-                    else if (telefonCevap == 1)
-                        Console.WriteLine("Emin Değilim. Ancak A veya B olduğunu düşünüyorum");
-                    else if (telefonCevap == 2)
-                        Console.WriteLine("Bilemedim. Kusura bakma");
+                    else if (telefonCevap == 1) Console.WriteLine("Emin Değilim. Ancak A veya B olduğunu düşünüyorum");
+                    else if (telefonCevap == 2) Console.WriteLine("Bilemedim. Kusura bakma");
                     telefonHak = false;
                 }
                 else
